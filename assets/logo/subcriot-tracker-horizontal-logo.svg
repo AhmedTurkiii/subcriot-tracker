@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Horizontal logo gradient -->
+    <linearGradient id="horizontalGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#764ba2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f093fb;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="iconGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Shadow -->
+    <filter id="textShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000000" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  
+  <!-- Icon -->
+  <g transform="translate(100, 100)">
+    <circle cx="0" cy="0" r="80" fill="url(#horizontalGradient)" filter="url(#textShadow)"/>
+    
+    <!-- Card stack -->
+    <rect x="-30" y="-15" width="60" height="30" rx="4" ry="4" 
+          fill="rgba(255,255,255,0.2)" 
+          transform="rotate(-6)"/>
+    
+    <rect x="-30" y="-15" width="60" height="30" rx="4" ry="4" 
+          fill="rgba(255,255,255,0.4)" 
+          transform="rotate(-3)"/>
+    
+    <rect x="-30" y="-15" width="60" height="30" rx="4" ry="4" 
+          fill="url(#iconGradient)"/>
+    
+    <!-- Dollar sign -->
+    <text x="0" y="6" font-family="SF Pro Display, -apple-system, BlinkMacSystemFont, sans-serif" 
+          font-size="16" font-weight="700" text-anchor="middle" 
+          fill="white">$</text>
+  </g>
+  
+  <!-- App name -->
+  <text x="220" y="80" font-family="SF Pro Display, -apple-system, BlinkMacSystemFont, sans-serif" 
+        font-size="48" font-weight="900" 
+        fill="url(#horizontalGradient)" filter="url(#textShadow)">Subcriot</text>
+  
+  <!-- Tagline -->
+  <text x="220" y="120" font-family="SF Pro Display, -apple-system, BlinkMacSystemFont, sans-serif" 
+        font-size="24" font-weight="600" 
+        fill="url(#horizontalGradient)" opacity="0.8">Tracker</text>
+  
+  <!-- Subtitle -->
+  <text x="220" y="150" font-family="SF Pro Display, -apple-system, BlinkMacSystemFont, sans-serif" 
+        font-size="16" font-weight="500" 
+        fill="url(#horizontalGradient)" opacity="0.6">Subscription Expense Tracker</text>
+</svg>

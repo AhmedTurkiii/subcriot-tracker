@@ -1,7 +1,7 @@
 # 📱 Subcriot Tracker
 
 <div align="center">
-  <img src="assets/logo/subcriot-tracker-professional-logo.svg" alt="Subcriot Tracker Logo" width="200" height="200">
+  <img src="assets/logo/subcriot-tracker-ultra-premium-logo.svg" alt="Subcriot Tracker Logo" width="200" height="200">
   <br>
   <em>Subscription Expense Tracker for Financial Management</em>
 </div>
@@ -36,6 +36,33 @@ A powerful iOS app that helps you track subscriptions, optimize spending, and ge
 - **Face ID/Touch ID**: Secure authentication
 - **No Cloud Sync**: Your financial data stays private
 - **Encrypted Storage**: Core Data with encryption
+
+## 🎨 Premium Logo & Branding
+
+The Subcriot Tracker features **App Store quality** logos designed with industry-leading standards:
+
+### 🏆 Logo Variations
+- **Ultra Premium Logo** - Multi-color gradient with sparkles and premium effects
+- **Premium Logo** - Modern gradient with card stack design
+- **Professional Logo** - Fintech-inspired blue gradient for corporate use
+- **App Icon** - App Store optimized 1024x1024 for iOS submission
+- **Horizontal Logo** - For headers, documentation, and marketing materials
+- **Favicon** - Browser tab icon in multiple sizes
+
+### 🎯 Design Features
+- **Modern Gradients** - Premium color schemes inspired by top fintech apps
+- **Card Stack Icon** - Represents subscription management visually
+- **Professional Typography** - SF Pro Display font family
+- **App Store Ready** - Meets Apple's design guidelines
+- **Scalable SVG** - Vector format for all screen sizes
+- **High-Resolution PNG** - Generated for all platforms
+
+### 📱 App Store Assets
+All required iOS app icon sizes (20x20 to 1024x1024) are automatically generated.
+
+**Generate PNG versions**: Run `./generate-premium-logos.sh` to create all formats.
+
+All logo assets are available in the [`assets/logo/`](assets/logo/) directory.
 
 ## 🏗️ Architecture
 
