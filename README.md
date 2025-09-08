@@ -1,9 +1,9 @@
-# 📱 SubscriptionTracker Pro
+# 📱 Subcriot Tracker
 
 <div align="center">
   <img src="assets/logo/subscription-tracker-logo.svg" alt="SubscriptionTracker Logo" width="200" height="200">
   <br>
-  <em>Smart Subscription Management with AI Financial Advisor</em>
+  <em>Subscription Expense Tracker for Financial Management</em>
 </div>
 
 A powerful iOS app that helps you track subscriptions, optimize spending, and get AI-powered financial insights to save money and manage your recurring expenses effectively.
@@ -85,8 +85,8 @@ This app follows **MVVM (Model-View-ViewModel)** architecture with:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/AhmedTurkiii/SubscriptionTracker.git
-   cd SubscriptionTracker
+   git clone https://github.com/AhmedTurkiii/subcriot-tracker.git
+   cd subcriot-tracker
    ```
 
 2. **Open in Xcode**
