@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Professional fintech gradient -->
+    <linearGradient id="fintechGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3c72;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2a5298;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Accent gradient -->
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00c9ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#92fe9d;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Card gradient -->
+    <linearGradient id="cardGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:0.9" />
+    </linearGradient>
+    
+    <!-- Glow effect -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background with professional gradient -->
+  <circle cx="100" cy="100" r="95" fill="url(#fintechGradient)"/>
+  
+  <!-- Inner ring for depth -->
+  <circle cx="100" cy="100" r="88" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="2"/>
+  
+  <!-- Subscription management icon -->
+  <g transform="translate(100, 100)">
+    <!-- Main card -->
+    <rect x="-50" y="-25" width="100" height="50" fill="url(#cardGradient)" rx="12" filter="url(#glow)"/>
+    
+    <!-- Card details -->
+    <rect x="-40" y="-15" width="80" height="8" fill="rgba(255,255,255,0.4)" rx="4"/>
+    <rect x="-40" y="-5" width="50" height="6" fill="rgba(255,255,255,0.3)" rx="3"/>
+    <rect x="-40" y="3" width="70" height="6" fill="rgba(255,255,255,0.3)" rx="3"/>
+    
+    <!-- Dollar symbol overlay -->
+    <circle cx="0" cy="0" r="20" fill="url(#accentGradient)" opacity="0.9"/>
+    <text x="0" y="8" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="900" fill="white">$</text>
+  </g>
+  
+  <!-- AI/ML indicators -->
+  <g transform="translate(150, 50)">
+    <!-- Neural network nodes -->
+    <circle cx="0" cy="0" r="6" fill="url(#accentGradient)"/>
+    <circle cx="-12" cy="-8" r="4" fill="url(#accentGradient)" opacity="0.7"/>
+    <circle cx="12" cy="-8" r="4" fill="url(#accentGradient)" opacity="0.7"/>
+    <circle cx="-8" cy="8" r="4" fill="url(#accentGradient)" opacity="0.7"/>
+    <circle cx="8" cy="8" r="4" fill="url(#accentGradient)" opacity="0.7"/>
+    
+    <!-- Connection lines -->
+    <line x1="-12" y1="-8" x2="0" y2="0" stroke="url(#accentGradient)" stroke-width="1" opacity="0.5"/>
+    <line x1="12" y1="-8" x2="0" y2="0" stroke="url(#accentGradient)" stroke-width="1" opacity="0.5"/>
+    <line x1="-8" y1="8" x2="0" y2="0" stroke="url(#accentGradient)" stroke-width="1" opacity="0.5"/>
+    <line x1="8" y1="8" x2="0" y2="0" stroke="url(#accentGradient)" stroke-width="1" opacity="0.5"/>
+  </g>
+  
+  <!-- Analytics chart -->
+  <g transform="translate(50, 50)">
+    <rect x="0" y="8" width="4" height="12" fill="url(#accentGradient)" rx="2"/>
+    <rect x="6" y="4" width="4" height="16" fill="url(#accentGradient)" rx="2"/>
+    <rect x="12" y="0" width="4" height="20" fill="url(#accentGradient)" rx="2"/>
+    <rect x="18" y="6" width="4" height="14" fill="url(#accentGradient)" rx="2"/>
+  </g>
+  
+  <!-- Notification indicator -->
+  <circle cx="140" cy="40" r="6" fill="#ff6b6b"/>
+  <text x="140" y="44" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="white">!</text>
+  
+  <!-- App name with professional typography -->
+  <text x="100" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="800" fill="white">Subcriot</text>
+  <text x="100" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="800" fill="url(#accentGradient)">Tracker</text>
+  
+  <!-- Professional tagline -->
+  <text x="100" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.8)">Financial Intelligence</text>
+</svg>

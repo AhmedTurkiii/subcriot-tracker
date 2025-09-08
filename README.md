@@ -1,7 +1,7 @@
 # 📱 Subcriot Tracker
 
 <div align="center">
-  <img src="assets/logo/subscription-tracker-logo.svg" alt="SubscriptionTracker Logo" width="200" height="200">
+  <img src="assets/logo/subcriot-tracker-professional-logo.svg" alt="Subcriot Tracker Logo" width="200" height="200">
   <br>
   <em>Subscription Expense Tracker for Financial Management</em>
 </div>
