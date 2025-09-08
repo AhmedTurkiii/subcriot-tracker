@@ -7,23 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A2B3C4D5E6F7890 /* SubscriptionTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B3C4D5E6F7891 /* SubscriptionTrackerApp.swift */; };
-		1A2B3C4D5E6F7892 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B3C4D5E6F7893 /* ContentView.swift */; };
-		1A2B3C4D5E6F7894 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A2B3C4D5E6F7895 /* Assets.xcassets */; };
-		1A2B3C4D5E6F7896 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A2B3C4D5E6F7897 /* Preview Assets.xcassets */; };
+		AA00000000000001 /* SubscriptionTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000002 /* SubscriptionTrackerApp.swift */; };
+		AA00000000000003 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000004 /* ContentView.swift */; };
+		AA00000000000005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA00000000000006 /* Assets.xcassets */; };
+		AA00000000000007 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA00000000000008 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1A2B3C4D5E6F7888 /* SubscriptionTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SubscriptionTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A2B3C4D5E6F7891 /* SubscriptionTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionTrackerApp.swift; sourceTree = "<group>"; };
-		1A2B3C4D5E6F7893 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		1A2B3C4D5E6F7895 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1A2B3C4D5E6F7897 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		1A2B3C4D5E6F7899 /* SubscriptionTracker.xcdatamodeld */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SubscriptionTracker.xcdatamodeld; sourceTree = "<group>"; };
+		AA00000000000000 /* SubscriptionTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SubscriptionTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA00000000000002 /* SubscriptionTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionTrackerApp.swift; sourceTree = "<group>"; };
+		AA00000000000004 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA00000000000006 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA00000000000008 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA00000000000009 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA00000000000019 /* Models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Models; sourceTree = "<group>"; };
+		AA0000000000001A /* Views */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Views; sourceTree = "<group>"; };
+		AA0000000000001B /* ViewModels */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ViewModels; sourceTree = "<group>"; };
+		AA0000000000001C /* Services */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Services; sourceTree = "<group>"; };
+		AA0000000000001D /* Utils */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Utils; sourceTree = "<group>"; };
+		AA0000000000001E /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
+		AA0000000000001F /* SubscriptionTracker.xcdatamodeld */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SubscriptionTracker.xcdatamodeld; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1A2B3C4D5E6F7885 /* Frameworks */ = {
+		AA0000000000000A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,38 +40,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1A2B3C4D5E6F787F /* SubscriptionTracker */ = {
+		AA0000000000000B /* SubscriptionTracker */ = {
 			isa = PBXGroup;
 			children = (
-				1A2B3C4D5E6F7890 /* SubscriptionTracker */,
-				1A2B3C4D5E6F788F /* Products */,
+				AA0000000000000C /* SubscriptionTracker */,
+				AA0000000000000D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1A2B3C4D5E6F788F /* Products */ = {
+		AA0000000000000C /* SubscriptionTracker */ = {
 			isa = PBXGroup;
 			children = (
-				1A2B3C4D5E6F7888 /* SubscriptionTracker.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		1A2B3C4D5E6F7890 /* SubscriptionTracker */ = {
-			isa = PBXGroup;
-			children = (
-				1A2B3C4D5E6F7891 /* SubscriptionTrackerApp.swift */,
-				1A2B3C4D5E6F7893 /* ContentView.swift */,
-				1A2B3C4D5E6F7895 /* Assets.xcassets */,
-				1A2B3C4D5E6F7899 /* SubscriptionTracker.xcdatamodeld */,
-				1A2B3C4D5E6F7898 /* Preview Content */,
+				AA00000000000002 /* SubscriptionTrackerApp.swift */,
+				AA00000000000004 /* ContentView.swift */,
+				AA00000000000019 /* Models */,
+				AA0000000000001A /* Views */,
+				AA0000000000001B /* ViewModels */,
+				AA0000000000001C /* Services */,
+				AA0000000000001D /* Utils */,
+				AA0000000000001E /* Resources */,
+				AA0000000000001F /* SubscriptionTracker.xcdatamodeld */,
+				AA00000000000006 /* Assets.xcassets */,
+				AA00000000000009 /* Info.plist */,
+				AA0000000000000E /* Preview Content */,
 			);
 			path = SubscriptionTracker;
 			sourceTree = "<group>";
 		};
-		1A2B3C4D5E6F7898 /* Preview Content */ = {
+		AA0000000000000D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1A2B3C4D5E6F7897 /* Preview Assets.xcassets */,
+				AA00000000000000 /* SubscriptionTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA0000000000000E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AA00000000000008 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -72,13 +86,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1A2B3C4D5E6F7887 /* SubscriptionTracker */ = {
+		AA0000000000000F /* SubscriptionTracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1A2B3C4D5E6F789A /* Build configuration list for PBXNativeTarget "SubscriptionTracker" */;
+			buildConfigurationList = AA00000000000010 /* Build configuration list for PBXNativeTarget "SubscriptionTracker" */;
 			buildPhases = (
-				1A2B3C4D5E6F7884 /* Sources */,
-				1A2B3C4D5E6F7885 /* Frameworks */,
-				1A2B3C4D5E6F7886 /* Resources */,
+				AA00000000000011 /* Sources */,
+				AA0000000000000A /* Frameworks */,
+				AA00000000000012 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -86,25 +100,25 @@
 			);
 			name = SubscriptionTracker;
 			productName = SubscriptionTracker;
-			productReference = 1A2B3C4D5E6F7888 /* SubscriptionTracker.app */;
+			productReference = AA00000000000000 /* SubscriptionTracker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1A2B3C4D5E6F7880 /* Project object */ = {
+		AA00000000000013 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					1A2B3C4D5E6F7887 = {
+					AA0000000000000F = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
 			};
-			buildConfigurationList = 1A2B3C4D5E6F7883 /* Build configuration list for PBXProject "SubscriptionTracker" */;
+			buildConfigurationList = AA00000000000014 /* Build configuration list for PBXProject "SubscriptionTracker" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,42 +126,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 1A2B3C4D5E6F787F /* SubscriptionTracker */;
-			productRefGroup = 1A2B3C4D5E6F788F /* Products */;
+			mainGroup = AA0000000000000B /* SubscriptionTracker */;
+			productRefGroup = AA0000000000000D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1A2B3C4D5E6F7887 /* SubscriptionTracker */,
+				AA0000000000000F /* SubscriptionTracker */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1A2B3C4D5E6F7886 /* Resources */ = {
+		AA00000000000012 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A2B3C4D5E6F7896 /* Preview Assets.xcassets in Resources */,
-				1A2B3C4D5E6F7894 /* Assets.xcassets in Resources */,
+				AA00000000000007 /* Preview Assets.xcassets in Resources */,
+				AA00000000000005 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1A2B3C4D5E6F7884 /* Sources */ = {
+		AA00000000000011 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A2B3C4D5E6F7892 /* ContentView.swift in Sources */,
-				1A2B3C4D5E6F7890 /* SubscriptionTrackerApp.swift in Sources */,
+				AA00000000000003 /* ContentView.swift in Sources */,
+				AA00000000000001 /* SubscriptionTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		1A2B3C4D5E6F789B /* Debug */ = {
+		AA00000000000015 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -210,7 +224,7 @@
 			};
 			name = Debug;
 		};
-		1A2B3C4D5E6F789C /* Release */ = {
+		AA00000000000016 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -237,7 +251,6 @@
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
@@ -266,7 +279,7 @@
 			};
 			name = Release;
 		};
-		1A2B3C4D5E6F789D /* Debug */ = {
+		AA00000000000017 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -295,7 +308,7 @@
 			};
 			name = Debug;
 		};
-		1A2B3C4D5E6F789E /* Release */ = {
+		AA00000000000018 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -327,25 +340,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1A2B3C4D5E6F7883 /* Build configuration list for PBXProject "SubscriptionTracker" */ = {
+		AA00000000000014 /* Build configuration list for PBXProject "SubscriptionTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1A2B3C4D5E6F789B /* Debug */,
-				1A2B3C4D5E6F789C /* Release */,
+				AA00000000000015 /* Debug */,
+				AA00000000000016 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1A2B3C4D5E6F789A /* Build configuration list for PBXNativeTarget "SubscriptionTracker" */ = {
+		AA00000000000010 /* Build configuration list for PBXNativeTarget "SubscriptionTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1A2B3C4D5E6F789D /* Debug */,
-				1A2B3C4D5E6F789E /* Release */,
+				AA00000000000017 /* Debug */,
+				AA00000000000018 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1A2B3C4D5E6F7880 /* Project object */;
+	rootObject = AA00000000000013 /* Project object */;
 }
